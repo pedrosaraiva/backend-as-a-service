@@ -16,17 +16,55 @@ title: Backend as a Service
         </td>
     </tr>                                                                                                       
 </script>
+<script id="newsListingTemplate" type="text/template">   
+    <tr>
+        <td align="left" style="padding-left: 50px;">   
+        <li>{{display_item_date}} - <a href="{{url}}" rel="bookmark" title="{{title}}" target="_blank">{{title}}</a>({{source}})</li>
+        </td>
+   </tr>                                                                                                  
+</script>
+<script id="analysisListingTemplate" type="text/template">   
+    <tr>
+        <td align="left" style="padding-left: 50px;">   
+        <li>{{date}} - <a href="{{url}}" rel="bookmark" title="{{title}}" target="_blank">{{title}}</a>({{source}})</li>
+        </td>
+   </tr>                                                                                                         
+</script>
 {% endraw %}
 
 <h1>Backend as a Service (BaaS)</h1>
 <p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/trends/baas-trends.png" width="250" align="right" style="padding: 15px;" /></p>
 <p>Backend as a service (BaaS), also known as "mobile backend as a service" (MBaaS), is a model for providing web and mobile app developers with a way to link their applications to backend cloud storage while also providing features such as user management, push notifications, and integration with social networking services. These services are provided via the use of custom software development kits (SDKs) and application programming interfaces (APIs). BaaS is a relatively recent development in cloud computing, with most BaaS startups dating from 2011 or later. The global BaaS market had an estimated value of $216.5 million in 2012.</p> 
-<p>In this section I will be tracking on news and companies that are doing interesting things around Backend as a Service (BaaS), while also sharing blog analysis I provide on BaaS.</p>
 
+<h2>Companies</h2>
 <div id="providerListing"></div>  
+
+<h2>News</h2>
+<div>
+    <table width="100%" cellpadding="5" cellspacing="5" id="newsListing">
+        <tr>
+            <td align="left">
+                <h2>News</h2>
+            </td>
+        </tr>
+    </table>    
+</div>  
+
+<h2>Analysis</h2>
+<div>
+    <table width="100%" cellpadding="5" cellspacing="5" id="analysisListing">
+        <tr>
+            <td align="left">
+                <h2>News</h2>
+            </td>
+        </tr>
+    </table>    
+</div> 
 
 <script type="text/javascript">
 listProviders();
+listNews();
+listAnalysis();
 </script>
 
 <!-- Singly -->
