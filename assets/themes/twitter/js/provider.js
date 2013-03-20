@@ -4,7 +4,7 @@ function listProviders()
     $.getJSON('data/providers.json', function(data) {
     	
     	$toggle=1;
-
+		$('#providerListing').append('<tr>');
     	 $.each(data['stack'], function(key, val) {
     	 		alert($toggle);
 				var template = $('#providerListingTemplate').html();
@@ -21,7 +21,7 @@ function listProviders()
 							
 				$toggle++;
 	        });
-        
+        $('#providerListing').append('</tr>');
         });
 
     }    
