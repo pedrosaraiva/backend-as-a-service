@@ -11,13 +11,14 @@ function listProviders()
 				var html = Mustache.to_html(template, val);
 				$('#providerListing').append(html);
 				
-				if($toggle==2){ 
+				if($toggle==3){ 
 					
 					rows = "</tr><tr>";
 					$('#providerListing').append(rows);						
 
 					$toggle=0;
-					}			
+					}	
+							
 				$toggle++;
 	        });
         
