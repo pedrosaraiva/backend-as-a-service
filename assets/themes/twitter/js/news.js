@@ -1,7 +1,7 @@
 function listNews()
     {
     newscount = 0;
-    $.getJSON('data/news/news.json', function(data) {
+    $.getJSON('data/news.json', function(data) {
     	
     	 $.each(data['news'], function(key, val) {
 	    	

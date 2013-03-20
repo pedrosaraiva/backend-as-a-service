@@ -3,7 +3,7 @@ function listAnalysis()
     newscount = 0;
     $.getJSON('data/analysis.json', function(data) {
     	
-    	 $.each(data['news'], function(key, val) {
+    	 $.each(data['analysis'], function(key, val) {
 	    	
 			if(newscount<250){
 				var template = $('#analysisListingTemplate').html();
