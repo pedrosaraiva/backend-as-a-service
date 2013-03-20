@@ -7,13 +7,13 @@ function listProviders()
 				var template = $('#providerListingTemplate').html();
 				var html = Mustache.to_html(template, val);
 				$('#providerListing').append(html);
-				if($toggle==3){ 
+				if($toggle==2){ 
 					html = "</tr><tr>";
 					$('#providerListing').append(html);
-					$toggle=1;
+					$toggle==1;
 					}
 				else{
-					$toggle=2;
+					$toggle++;
 				}
 				
 	        });
