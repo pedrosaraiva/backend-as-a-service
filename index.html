@@ -5,9 +5,7 @@ title: Backend as a Service
 
 {% raw  %}
 <script id="providerListingTemplate" type="text/template">       
-    <td align="center" valign="top">
-        <a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a>
-    </td>                                                                                                   
+   <li><a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a></li>                                                                                                   
 </script>
 <script id="newsListingTemplate" type="text/template">   
     <tr>
@@ -31,9 +29,9 @@ title: Backend as a Service
 
 <h2>Companies</h2>
 <div style="padding-left: 25px;">
-    <table width="90%" cellpadding="5" cellspacing="5" id="providerListing" border="1">
+    <ul id="providerListing" style="display: inline;">
    
-    </table>
+    </ul>
 </div>  
 
 <h2>News</h2>
