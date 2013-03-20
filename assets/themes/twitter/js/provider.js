@@ -6,7 +6,7 @@ function listProviders()
     	$toggle=1;
 
     	 $.each(data['stack'], function(key, val) {
-    	 	
+    	 		alert($toggle);
 				var template = $('#providerListingTemplate').html();
 				var html = Mustache.to_html(template, val);
 				$('#providerListing').append(html);
