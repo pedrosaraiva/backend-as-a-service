@@ -1,252 +1,34 @@
 ---
 layout: page
-title: Hack Weekends
+title: Backend as a Service
 
 ---
-<h1>Backend as a Service</h1>
 
-<p><strong>User Management</strong></p>
-<ul>
-<li>User</li> 
-<li>User Roles</li>
-<li>LDAP</li>
-</ul>
+{% raw  %}
+<script id="providerListingTemplate" type="text/template">   
+    <tr>     
+        <td align="center" valign="top">
+            <a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a>
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="3">
+            <hr />
+        </td>
+    </tr>                                                                                                       
+</script>
+{% endraw %}
 
-<p><strong>Content Management System (CMS)</strong></p>
+<h1>Backend as a Service (BaaS)</h1>
+<p><img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/trends/baas-trends.png" width="250" align="right" style="padding: 15px;" /></p>
+<p>Backend as a service (BaaS), also known as "mobile backend as a service" (MBaaS), is a model for providing web and mobile app developers with a way to link their applications to backend cloud storage while also providing features such as user management, push notifications, and integration with social networking services. These services are provided via the use of custom software development kits (SDKs) and application programming interfaces (APIs). BaaS is a relatively recent development in cloud computing, with most BaaS startups dating from 2011 or later. The global BaaS market had an estimated value of $216.5 million in 2012.</p> 
+<p>In this section I will be tracking on news and companies that are doing interesting things around Backend as a Service (BaaS), while also sharing blog analysis I provide on BaaS.</p>
 
-<p><strong>Data</strong></p>
-<ul>
-<li>Table</li> 
-<li>Relational</li>
-<li>Key Value</li>
-<li>Browser</li>
-<li>MySQL Connector</li>
-<li>PostGres Connector</li> 
-<li>Oracle Connector</li> 
-<li>Caching</li>  
-<li>XML</li>
-<li>CSV</li>    
-</ul>
+<div id="providerListing"></div>  
 
-<p><strong>File Management</strong></p>
-<ul>
-<li>Storage</li> 
-<li>Sync</li>
-</ul>
-
-<p><strong>Image & Photo Management</strong></p>
-<ul>
-<li>Storage</li> 
-<li>Gallery & Collections</li>
-<li>Processing</li> 
-</ul>
-
-<p><strong>Custom Code / Objects</strong></p>
-
-<p><strong>Programmatic Interfaces</strong></p>
-<ul>
-<li>Web Service Connectors</li>
-<li>REST API</li>
-<li>Custom REST API</li>
-<li>Query</li>
-</ul>
-
-<p><strong>Commerce</strong></p>
-<ul>
-<li>Product Catalog</li>
-<li>Shopping Cart</li>
-</ul>
-
-<p><strong>Virtual Commerce</strong></p>
-<ul>
-<li>In-App Purchases
-Custom Virtual store
-Virtual goods management
-Currency maintenance
-Virtual economy regulation
-</ul>
-
-<p><strong>Other Monetization</strong></p>
-<ul>
-<li>Promotions</li>
-<li>Subscriptions</li>
-<li>Billing</li>
-<li>Passbook</li>
-</ul>
-
-<p><strong>Ranking</strong></p>
-<ul>
-<li>Recomendations </li>
-<li>Reviews</li>
-<li>Ratings</li>
-<li>Likes</li>
-</ul>
-
-<p><strong>Advertising</strong></p>
-
-<p><strong>Communication</strong></p>
-<ul>
-<li>SMS</li>
-<li>Email</li>
-<li>Email Templates</li>
-<li>Push Notification</li>
-<li>Interactive Voice Response (IVR)</li>
-<li>Messaging System</li>
-</ul>
-
-<p><strong>Calendar Events</strong></p>
-
-<p><strong>Posts</strong></p>
-
-<p><strong>Friends</strong></p>
-
-<p><strong>Shared Links</strong></p>
-
-<p><strong>Geo</strong></p>
-<ul>
-<li>Spatial</li>
-<li>Location</li>
-<li>Check-In</li>
-<li>Places</li>
-</ul>
-
-<p><strong>Gaming</strong></p>
-<ul>
-<li>Players</li>
-<li>Ranking</li>
-<li>Scores</li>
-<li>Boards</li>
-<li>State</li>
-</ul>
-
-<p><strong>3rd Party Integration</strong></p>
-<ul>
-<li>Twitter</li>
-<li>Facebook</li>
-<li>Dropbox</li>
-<li>Fitbit</li>
-<li>Foursquare</li>
-<li>Github</li>
-<li>Instagram</li>
-<li>LinkedIn</li>
-<li>Meetup</li>
-<li>Tumblr</li>
-<li>Withings</li>
-<li>Wordpress</li>
-<li>Yammer</li>
-<li>Twilio</li>
-<li>Underscore</li>
-<li>SendGrid</li>
-<li>Moment</li>
-<li>Mandrill</li>
-<li>Mailgun</li>
-<li>CrowdFlower</li>
-<li>Google Places</li>
-<li>Google Apps</li>
-<li>Salesforce</li>
-<li>SAP</li>
-<li>Siebel</li>
-<li>Wordpress</li>
-</ul>
-
-<p><strong>SSL</strong></p>
-
-<p><strong>Availability</strong></p>
-<ul>
-<li>Performance</li>
-<li>Scaling</li>
-<li>Load Balance</li>
-</ul>
-
-<p><strong>Deployment</strong></p>
-<ul>
-<li>On-Premise</li>
-<li>Virtual Private Cloud</li>
-<li>Public Cloud</li>
-</ul>
-
-<p><strong>Environment</strong></p>
-<ul>
-<li>Sandbox</li>
-<li>Production</li>
-</ul>
-
-<p><strong>Utility</strong></p>
-<ul>
-<li>Logging</li>
-<li>Backups</li>
-<li>Clients</li>
-<li>Jobs</li>
-</ul>
-
-<p><strong>Mobile Devices</strong></p>
-<ul>
-<li>iOS</li>
-<li>Android</li>
-<li>Windows</li>
-<li>Blackberry</li>
-</ul>
-
-<p><strong>Reader Devices</strong></p>
-<ul>
-<li>Kindle</li>
-</ul>
-
-<p><strong>Mobile Platforms</strong></p>
-<ul>
-<li>PhoneGap</li>
-<li>Trigger.io</li>
-<li>Titanium</li>
-<li>ql.io</li>
-</ul>
-
-<p><strong>App Frameworks</strong></p>
-<ul>
-<li>ql.io</li>
-</ul>
-
-<p><strong>Automation</strong></p>
-<ul>
-<li>Temboo</li>
-</ul>
-
-<p><strong>Languages</strong></p>
-<ul>
-<li>JavaScript</li>
-<li>Java</li>
-<li>C#</li>
-<li>PHP</li>
-<li>Python</li>
-<li>Ruby</li>
-</ul>
-
-<p><strong>Support</strong></p>
-<ul>
-<li>Phone</li>
-<li>Web</li>
-<li>Chat</li>
-<li>Dedicated Account</li>
-<li>Dedicated Tech</li>
-</ul>
-
-<p><strong>Analytics</strong></p>
-
-<p><strong>Pricing</strong></p>
-<ul>
-<li>API Calls
-<li>Push Notification
-<li>Bandwidth
-<li>Storage
-<li>Active Users
-<li>Analytics
-<li>Support
-<li>App
-<li>Synchronizations
-</ul>
-
-<p><strong>Marketplace</strong></p>
-
-
+<script type="text/javascript">
+listProviders();
+</script>
 
 <!-- Singly -->
 <hr />
