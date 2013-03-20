@@ -16,18 +16,12 @@ function listProviders()
 				
 				if($toggle==2){ 
 					
-					rows = '</td><td align="center" valign="top">';
+					rows = "</tr><tr>";
 					$('#providerListing').append(rows);						
 
-					$toggle=1;
-					}
-				else{
-					
-					rows = "</tr><tr>";
-					$('#providerListing').append(rows);					
-									
-					$toggle++;
-				}
+					$toggle=0;
+					}			
+				$toggle++;
 	        });
         
         });
