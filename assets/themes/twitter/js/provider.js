@@ -15,13 +15,17 @@ function listProviders()
 				$('#providerListing').append(html);
 				
 				if($toggle==2){ 
-					rows = "</tr><tr>";
-					$('#providerListing').append(rows);
+					
+					rows = '</td><td align="center" valign="top">';
+					$('#providerListing').append(rows);						
+
 					$toggle=1;
 					}
 				else{
-					rows = '</td><td align="center" valign="top">';
+					
+					rows = "</tr><tr>";
 					$('#providerListing').append(rows);					
+									
 					$toggle++;
 				}
 	        });
