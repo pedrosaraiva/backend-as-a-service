@@ -10,12 +10,11 @@ function listProviders()
 				if($toggle==2){ 
 					html = "</tr><tr>";
 					$('#providerListing').append(html);
-					$toggle==1;
+					$toggle=1;
 					}
 				else{
 					$toggle++;
 				}
-				alert($toggle);
 	        });
         
         });
