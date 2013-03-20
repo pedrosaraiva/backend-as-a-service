@@ -13,7 +13,7 @@ function listProviders()
 					$toggle=1;
 					}
 				else{
-					$toggle=2;
+					$toggle=0;
 				}
 				
 	        });
