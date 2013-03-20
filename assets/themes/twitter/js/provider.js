@@ -4,10 +4,7 @@ function listProviders()
     $.getJSON('data/providers.json', function(data) {
     	
     	$toggle=1;
-    	
-    	rowheader = '<td align="center" valign="top">';
-    	$('#providerListing').append(rowheader);	
-    	
+
     	 $.each(data['stack'], function(key, val) {
     	 	
 				var template = $('#providerListingTemplate').html();
@@ -25,9 +22,6 @@ function listProviders()
 	        });
         
         });
-        
-    	rowfooter = '</td></tr>';
-    	$('#providerListing').append(rowfooter);	        
-        
+
     }    
      
