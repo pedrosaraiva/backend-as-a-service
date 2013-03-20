@@ -15,6 +15,7 @@ function listProviders()
 				else{
 					$toggle++;
 				}
+				alert($toggle);
 	        });
         
         });
