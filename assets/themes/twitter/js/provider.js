@@ -3,8 +3,6 @@ function listProviders()
     $.getJSON('data/providers.json', function(data) {
     	toggle = 0;
     	 $.each(data['stack'], function(key, val) {
-    	 	alert(toggle); 	
-    	 	
     	 	if(toggle==1){
 					
 				var template = $('#providerListingTemplate1').html();
@@ -21,7 +19,6 @@ function listProviders()
 				
 				toggle=1;
 			}
-			alert($('#providerListing').html());
 	        });
         });
 
