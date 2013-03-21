@@ -4,17 +4,10 @@ title: Backend as a Service
 ---
 
 {% raw  %}
-<script id="providerListingTemplate1" type="text/template">       
-   <tr><td align="center" style="padding-left: 50px;">   
-        <a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a> 
-    </td>                                                                                                 
+<script id="providerListingTemplate" type="text/template">       
+    <li><a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a></li>                                                                                               
 </script>
-<script id="providerListingTemplate2" type="text/template">       
-    <td align="center" style="padding-left: 50px;">   
-        <a href="{{website}}" target="_blank"><img src="{{logo}}" width="200" /></a> 
-    </td> 
-    </tr>                                                                                                
-</script>
+
 <script id="newsListingTemplate" type="text/template">   
     <tr>
         <td align="left" style="padding-left: 50px;">   
@@ -37,9 +30,9 @@ title: Backend as a Service
 
 <h2>Companies</h2>
 <div style="padding-left: 25px;">
-     <table id="providerListing" border="1">
+     <ul id="providerListing">
          
-     </table>
+     </ul>
 </div>  
 
 <h2>News</h2>
