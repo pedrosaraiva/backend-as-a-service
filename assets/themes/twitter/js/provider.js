@@ -15,7 +15,7 @@ function listProviders()
 			else{
 				toggle=1;
 			}
-			alert($('#providerListing').html);
+			alert($('#providerListing').innerhtml);
 	        });
         });
 
