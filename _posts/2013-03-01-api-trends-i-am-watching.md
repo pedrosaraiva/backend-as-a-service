@@ -1,8 +1,8 @@
 ---
 layout: post
 title: API Trends I Am Watching
-url: http://www.apievangelist.com/2013/3/1/api-trends-im-watching/
-source: http://www.apievangelist.com/2013/3/1/api-trends-im-watching/
+url: http://www.apievangelist.com/2013/03/01/api-trends-im-watching/
+source: http://www.apievangelist.com/2013/03/01/api-trends-im-watching/
 domain: www.apievangelist.com
 ---
 {% include JB/setup %}<p>Photo Credit: AVnet
@@ -14,5 +14,5 @@ I try to keep API Evangelist a place where API newbies and API experts can both 
 Aggregation - Merging various APIs together into not just meaningful new stacks of resources, but entirely new resources, as a result of merging
 BaaS - The promise of Backend as a Service is to bundle together resources developers need to build mobile apps more efficiently.&nbsp;Some providers are rolling their own stacks, while others are using a hybrid approach with wise use of 3rd party API resources
 Reciprocity - The integration, interoperability, automation and transformation of data between cloud services, in a way that respects the relationshiop between user and platform, that uses APIs.</p>
-<center><p><a href="http://www.apievangelist.com/2013/3/1/api-trends-im-watching/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+<center><p><a href="http://www.apievangelist.com/2013/03/01/api-trends-im-watching/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
 
