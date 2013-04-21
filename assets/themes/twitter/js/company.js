@@ -13,7 +13,7 @@ function getCompanyDetails(id)
     {
     $.getJSON('data/companies.json', function(data) {  	
         $.each(data['company'], function(key, val) {
-        	thisid = new val['id'];
+        	thisid = val['id'];
         	if(thisid == id)
         		{
                 var template = $('#companyDetailTemplate').html();
