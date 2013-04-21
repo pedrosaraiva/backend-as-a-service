@@ -4,14 +4,15 @@ title: Companies
 ---
 {% raw  %}
 <script id="companyListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 25px;">
-        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="250" /></a>
+    <li style="list-style: none; padding: 30px;">
+        <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" /></a>
+        <strong>{{name}}</strong> - {{details}}
     </li>                                                                                               
 </script>
 {% endraw %}
 
 <h1>BaaS Companies</h1>
-<div style="padding-left: 95px; display: inline;">
+<div style="padding-left: 125px; display: inline;">
      <ul id="companyListing">
      </ul>
 </div>  
