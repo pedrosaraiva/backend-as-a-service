@@ -1,10 +1,0 @@
----
-layout: post
-title: CloudMine + Singly = Rapid Mobile App Development With Social Baked In
-url: http://www.apievangelist.com/2012/11/12/cloudmine-singly-rapid-mobile-app-development-with-social-baked-in/
-source: http://www.apievangelist.com/2012/11/12/cloudmine-singly-rapid-mobile-app-development-with-social-baked-in/
-domain: www.apievangelist.com
----
-{% include JB/setup %}<p>Backend as a Service (BaaS) provider CloudMine and aggregated social API platform Singly announced a partnership today, to make sure the mobile applications developers are building using CloudMine have social baked in by default.CloudMine is delivering on the BaaS promise and providing all the tools developers need to rapidly develop and scale their mobile applications, by providing a complete backend solution for developers including user management, object storage, push notifications, syncing and other essential tools developers need to be successful.CloudMine + Singly Partnership Announcement from CloudMine on Vimeo.Social is the logical next step in the BaaS evolution.Social authentication, data, friends, followers are also essential for any developer building an app these days, so the partnership being CloudMine and Singly makes sense.Instead of CloudMine aggregating these essential social tools, they can rely on Singly to bring this to the table for CloudMine developers--allowing CloudMine to stick with what they do best.If you want more information, you can head over to CloudMine or Singly, and see how their approach can help your mobile app development.Disclosure: &nbsp;Singly is a partner of API Evangelist</p>
-<center><p><a href="http://www.apievangelist.com/2012/11/12/cloudmine-singly-rapid-mobile-app-development-with-social-baked-in/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
-
