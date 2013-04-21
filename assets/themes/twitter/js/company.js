@@ -1,5 +1,6 @@
 function listCompanies()
     {
+    alert("showing companies!");
     $.getJSON('data/companies.json', function(data) {
     	toggle = 0;
     	 $.each(data['company'], function(key, val) {
