@@ -22,13 +22,12 @@ function getCompanyDetails(id)
                 var template = $('#companyDetailTemplate').html();
                 var html = Mustache.to_html(template, val);
                 $('#companyDetail').append(html);
+                
+	            website = val['website'];
+	            alert(website);
+	        	if(thisid == id){ $('home-icon').attr('href',website); }                
+                
             	}
-            
-            website = val['website'];
-            alert(website);
-        	if(thisid == id){ $('home-icon').attr('href',website); }
-        			            	
-            	
           	});                                    
         });
     }  
