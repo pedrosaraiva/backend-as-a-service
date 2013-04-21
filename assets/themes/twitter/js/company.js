@@ -25,7 +25,7 @@ function getCompanyDetails(id)
                 
 	            website = val['website'];
 	            alert(website);
-	        	if(thisid == id){ $('home-icon').attr('href',website); }                
+	        	if(website!=''){ document.getElementById("home-icon").href=website; alert(document.getElementById("home-icon").href); }                
                 
             	}
           	});                                    
