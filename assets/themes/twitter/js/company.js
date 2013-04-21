@@ -9,6 +9,7 @@ function listCompanies()
 	        });
         });
     }    
+    
 function getCompanyDetails(id)
     {
     $.getJSON('data/companies.json', function(data) {  	
