@@ -24,9 +24,19 @@ function getCompanyDetails(id)
                 $('#companyDetail').append(html);
                 
 	            website = val['website'];
-	            alert(website);
-	        	if(website!=''){ document.getElementById("home-icon").href=website; alert(document.getElementById("home-icon").href); }                
+	        	if(website!=''){ document.getElementById("home-icon").href=website; } else { document.getElementById("home-icon-img").display=='none'; }              
                 
+	            blog = val['blog'];
+	        	if(blog!=''){ document.getElementById("blog-icon").href=blog; } else { document.getElementById("home-blog-img").display=='none'; }
+	        	                
+	            blogrss = val['blogrss'];
+	        	if(blogrss!=''){ document.getElementById("blogrss-icon").href=blogrss; } else { document.getElementById("blogrss-icon-img").display=='none'; }
+	        	
+	            twitter = val['twitter'];
+	        	if(twitter!=''){ document.getElementById("twitter-icon").href=twitter; } else { document.getElementById("twitter-icon-img").display=='none'; }
+	        	
+	            github = val['github'];
+	        	if(github!=''){ document.getElementById("github-icon").href=github; } else { document.getElementById("github-icon-img").display=='none'; }	        		        	                
             	}
           	});                                    
         });
