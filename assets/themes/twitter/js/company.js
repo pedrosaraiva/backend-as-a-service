@@ -36,7 +36,7 @@ function getCompanyDetails(id)
 	        	if(twitter!=''){ document.getElementById("twitter-icon").href=twitter; } else { document.getElementById("twitter-icon-img").style.display=='none'; }
 	        	
 	            github = val['github'];
-	        	if(github!=''){ document.getElementById("github-icon").href=github; alert("1)"+github.length);  } else { document.getElementById("github-icon-img").style.display=='hidden';alert("1)"+github); }	        		        	                
+	        	if(github!=''){ document.getElementById("github-icon").href=github; alert("1)"+github.length);  } else { document.getElementById("github-icon-img").style.display=='hidden';alert("2)"+github.length); }	        		        	                
             	}
           	});                                    
         });
