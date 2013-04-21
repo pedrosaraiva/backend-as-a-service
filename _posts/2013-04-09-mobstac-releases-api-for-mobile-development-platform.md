@@ -1,10 +1,9 @@
 ---
-layout: post
-title: MobStac Releases API for Mobile Development Platform
-url: http://blog.programmableweb.com/2013/04/09/mobstac-releases-api-for-mobile-development-platform/
----
-{% include JB/setup %}
-<p>  MobileMotion Technologies, maker of the MobStac mobile platform, recently launched the MobStac API.  Developers can integrate the MobStac API with any programming interface to create and manage mobile sites and apps.  The MobStac platform has cemented itself as a trusted leader in mobile development, and the API simply expands its reach.  MobStac CEO, Sharat Potharaju, commented:
+layout: post
+title: MobStac Releases API for Mobile Development Platform
+url: http://blog.programmableweb.com/2013/04/09/mobstac-releases-api-for-mobile-development-platform/
+---
+{% include JB/setup %}<p>  MobileMotion Technologies, maker of the MobStac mobile platform, recently launched the MobStac API.  Developers can integrate the MobStac API with any programming interface to create and manage mobile sites and apps.  The MobStac platform has cemented itself as a trusted leader in mobile development, and the API simply expands its reach.  MobStac CEO, Sharat Potharaju, commented:
 
 
 
