@@ -1,0 +1,25 @@
+---
+layout: page
+title: Companies
+---
+
+{% literal %}
+<script id="companyDetailTemplate" type="text/template">
+    <h2>{{name}}</h2>
+     <p><img src="{{logo}}" width="250" style="padding: 15px;" align="right" /></a></p>
+    <p>{{details}}</p>                                                                                                
+</script>
+{% endliteral %}
+
+<div>
+    
+    <p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="images/json-data-store.jpg" align="right" width="40" style="padding-top: 10px;" /></a></p>
+    <div id="companyDetail"> </div>
+    <br /><br />
+    <p align="center"><a href="companies.html">Return to Companies Page</a></p>
+    
+</div>  
+
+<script>
+getCompanyDetails(getUrlVar('id'));
+</script>

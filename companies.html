@@ -3,32 +3,19 @@ layout: page
 title: Companies
 ---
 {% raw  %}
-<script id="providerListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 25px;"><a href="{{website}}" target="_blank"><img src="{{logo}}" width="250" /></a></li>                                                                                               
-</script>
-
-<script id="newsListingTemplate" type="text/template">   
-    <tr>
-        <td align="left" style="padding-left: 50px;">   
-            <li>{{display_item_date}} - <a href="{{url}}" rel="bookmark" title="{{title}}" target="_blank">{{title}}</a>({{source}})</li>
-        </td>
-   </tr>                                                                                                  
-</script>
-<script id="analysisListingTemplate" type="text/template">   
-    <tr>
-        <td align="left" style="padding-left: 50px;">   
-        <li>{{date}} - <a href="{{url}}" rel="bookmark" title="{{title}}" target="_blank">{{title}}</a></li>
-        </td>
-   </tr>                                                                                                         
+<script id="companyListingTemplate" type="text/template">       
+    <li style="list-style: none; padding: 25px;">
+        <a href="companies-detail.html?id={{id}}" target="_blank"><img src="{{logo}}" width="250" /></a>
+    </li>                                                                                               
 </script>
 {% endraw %}
 
 <h1>BaaS Companies</h1>
 <div style="padding-left: 95px; display: inline;">
-     <ul id="providerListing">
+     <ul id="companyListing">
      </ul>
 </div>  
 
 <script type="text/javascript">
-listProviders();
+listCompanies();
 </script>
