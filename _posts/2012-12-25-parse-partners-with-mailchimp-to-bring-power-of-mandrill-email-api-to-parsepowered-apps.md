@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Parse Partners with MailChimp to Bring Power of Mandrill Email API to Parse-Powered Apps
+url: http://blog.programmableweb.com/2012/12/21/parse-partners-with-mailchimp-to-bring-power-of-mandrill-email-api-to-parse-powered-apps/
 ---
 {% include JB/setup %}<p>Parse, creator of the mobile app service Cloud Code, has announced that the company has formed a partnership with MailChimp to bring the power of the Mandrill Email API to Parse-powered applications.Image Credit: Parse
 

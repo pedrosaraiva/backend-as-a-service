@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kinvey and Urban Airship Integration Streamlines Data-Driven Mobile App Engagement
+url: http://www.kinvey.com/blog/106/kinvey-and-urban-airship-integration-streamlines-datadriven-mobile-app-engagement
 ---
 {% include JB/setup %}<p>Were thrilled to announce that we have expanded our partnership with Urban Airship, the leading platform provider for high-performance push messaging.This expansion unveils a seamless integration that enables developers to easily build a new class of push-enabled applications for native operating systems and the mobile web.At Kinvey, we make it easy for developers to set up, operate and manage scalable cloud backends for mobile, tablet and web applications.We have integrated our API and libraries with Urban Airship’s to enable sending push notifications to devices running on iOS and Android through a single interface and SDK.  
               
