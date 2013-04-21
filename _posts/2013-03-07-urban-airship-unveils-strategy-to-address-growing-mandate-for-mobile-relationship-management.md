@@ -8,5 +8,5 @@ Add sophisticated business-user oriented capabilities to its cross-platform solu
 Offer strategic professional services for customer engagement best practices and expert technical services married to customers mobile launches for optimal results out-of-the-gate
 Expand its ecosystem of strategic partners, technology platforms and agencies focused on solving businesses core objectives in engaging customers, partners and employees
 With more mobile devices than people on the planet, it is critical that organizations move quickly into this new world by putting the consumer front-and-center, said Peter Roybal, head of mobile product management at ABC News Digital.</p>
-<p><a href="http://www.marketwire.com/press-release/urban-airship-unveils-strategy-address-growing-mandate-mobile-relationship-management-1765437.htm">Read Full Story</a></p>
+<br /><p align='center'><a href="http://www.marketwire.com/press-release/urban-airship-unveils-strategy-address-growing-mandate-mobile-relationship-management-1765437.htm">Read Full Story</a></p><br />
 

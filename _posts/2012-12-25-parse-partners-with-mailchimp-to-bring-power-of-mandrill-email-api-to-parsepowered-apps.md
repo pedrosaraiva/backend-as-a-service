@@ -10,5 +10,5 @@ url: http://blog.programmableweb.com/2012/12/21/parse-partners-with-mailchimp-to
 
 
  For more information, check out the Mandrill API reference.</p>
-<p><a href="http://blog.programmableweb.com/2012/12/21/parse-partners-with-mailchimp-to-bring-power-of-mandrill-email-api-to-parse-powered-apps/">Read Full Story</a></p>
+<br /><p align='center'><a href="http://blog.programmableweb.com/2012/12/21/parse-partners-with-mailchimp-to-bring-power-of-mandrill-email-api-to-parse-powered-apps/">Read Full Story</a></p><br />
 

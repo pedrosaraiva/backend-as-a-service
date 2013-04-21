@@ -79,5 +79,5 @@ TABLE 87 IMPACT ANALYSIS OF MERGERS & ACQUISITIONS IN BAAS MARKET
 TABLE 88 VC FUNDING IN BAAS MARKET
           
                          Backend as a service (BaaS) is a new cloud computing service offered to minimize the complexity and time taken by the app developers to build their application.The service offers hardware to host the code and software to develop the front end of the application with the backend being readily available with rich features.The most common features offered in this service are: SDKs and code samples for different operating systems; APIs library for geolocation, chat, push and email notifications, user and content management, versioning, REST API; Analytics and Metrics; Security.The BaaS market is populated mostly by startups at present.To note, both Apple and Microsoft also provide this service in the form of iOS cloud and Windows Azure.</p>
-<p><a href="http://www.marketsandmarkets.com/Market-Reports/mobile-backend-as-a-service-mbaas-market-813.html">Read Full Story</a></p>
+<br /><p align='center'><a href="http://www.marketsandmarkets.com/Market-Reports/mobile-backend-as-a-service-mbaas-market-813.html">Read Full Story</a></p><br />
 
