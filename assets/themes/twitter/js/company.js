@@ -24,7 +24,8 @@ function getCompanyDetails(id)
             	}
             
             website = val['website'];
-        	if(thisid == id){ $("a#home-icon").attr('href',website); }
+            alert(website);
+        	if(thisid == id){ $('home-icon').attr('href',website); }
         			            	
             	
           	});                                    
