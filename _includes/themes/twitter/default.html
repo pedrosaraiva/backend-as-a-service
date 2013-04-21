@@ -162,16 +162,18 @@
             </div><!-- /#main -->
 
             <div id="sidebar">
-                
+                {% raw  %}  
                 {% if page.title == 'Backend as a Service' %}
     
                 {% else %}
+                    <div class="widget widget_recent_entries"> 
                     <center>      
                         <h3>Backend as a Service</h3>
                         <img src="https://s3.amazonaws.com/kinlane-productions/api-evangelist/trends/baas-trends.png" width="175" align="right" style="padding: 15px;" />
                     </center>
+                    </div>
                 {% endif %}
-                
+                 {% endraw %}      
                 <!--- Begin Partners --->
                 <script id="parterListingTemplate" type="text/template"> 
                     {% raw  %}  
