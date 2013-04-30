@@ -1,11 +1,4 @@
----
-layout: post
-title: 75 Features From Across 31 BaaS Providers
-url: http://www.apievangelist.com/2013/02/26/75-features-from-across-31-baas-providers/
-source: http://www.apievangelist.com/2013/02/26/75-features-from-across-31-baas-providers/
-domain: www.apievangelist.com
----
-{% include JB/setup %}<p>I&rsquo;m currently tracking on 31 backend as a service providers, in an effort to better understand how this new breed of platforms are helping developers build web and mobile apps.After looking at all the BaaS providers, there are 13 clear leaders:
+<p>I&rsquo;m currently tracking on 31 backend as a service providers, in an effort to better understand how this new breed of platforms are helping developers build web and mobile apps.After looking at all the BaaS providers, there are 13 clear leaders:
 
 
 

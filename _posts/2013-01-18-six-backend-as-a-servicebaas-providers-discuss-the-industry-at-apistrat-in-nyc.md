@@ -1,11 +1,4 @@
----
-layout: post
-title: Six Backend as a Service(BaaS) Providers Discuss the Industry at #APIStrat in NYC
-url: http://www.apievangelist.com/2013/01/18/six-of-the-top-backend-as-a-servicebaas-discussing-industry-at-apistrat-in-nyc/
-source: http://www.apievangelist.com/2013/01/18/six-of-the-top-backend-as-a-servicebaas-discussing-industry-at-apistrat-in-nyc/
-domain: www.apievangelist.com
----
-{% include JB/setup %}<p>Backend as a Service (BaaS), sometimes called Mobile Backend is a Service (MBaaS) is a growing trend I&rsquo;m monitoring at API Evangelist.I&rsquo;m tracking on 20 providers in the space, with two newly added open-source BaaS platforms.Beyond the research, stories and analysis on BaaS, I just added a BaaS panel at the API Strategy &amp; Practice Conference in New York City, February 21st and 22nd.The panel will include six of the leading BaaS platforms:
+<p>Backend as a Service (BaaS), sometimes called Mobile Backend is a Service (MBaaS) is a growing trend I&rsquo;m monitoring at API Evangelist.I&rsquo;m tracking on 20 providers in the space, with two newly added open-source BaaS platforms.Beyond the research, stories and analysis on BaaS, I just added a BaaS panel at the API Strategy &amp; Practice Conference in New York City, February 21st and 22nd.The panel will include six of the leading BaaS platforms:
 
 Marc Weil (@marcweil) of&nbsp;Cloudmine
 James Tamplin (@jamestamplin) of&nbsp;Firebase

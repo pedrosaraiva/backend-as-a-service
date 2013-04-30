@@ -1,0 +1,3 @@
+<p>Josh Constine is a technology journalist who specializes in deep analysis of social products.He is currently a writer for TechCrunch.Previously, Constine was the Lead Writer of Inside Facebook,  where he covered Facebook product changes, privacy, the Ads API, Page management, ecommerce, virtual currency, and music technology.Prior to writing for Inside Facebook, Constine graduated from Stanford University.→ Learn More</p>
+<center><p><a href="http://techcrunch.com/2013/04/27/parse-facebook/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+
