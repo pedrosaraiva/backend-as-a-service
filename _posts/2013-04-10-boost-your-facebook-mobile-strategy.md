@@ -1,0 +1,3 @@
+<p>Interested in learning more about Facebook and how to incorporate it into your mobile strategy?Join our friends at Facebook for a live Q&A with the mobile app install ads product team.This is a great opportunity to turbo charge your Facebook programs and learn from the masters.Come hear directly from the team that built mobile app install ads about the new features and best practices for using the product.You’ll also have a chance to ask live questions!</p>
+<center><p><a href="https://blog.stackmob.com/2013/04/boost-your-facebook-mobile-strategy/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+

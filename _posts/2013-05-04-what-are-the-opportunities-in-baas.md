@@ -1,0 +1,3 @@
+<p>API Evangelist doesnt focus on market or investment opportunities.I keep an eye out for product and innovation opportunities, which are a much different beast.These represent places where there are gaps in the delivery of API driven resources that developers will need to deliver the generation of not just apps, but compute.There are numerous opportunities for innovation within the umbrella that is being defined as BaaS in the areas that are obvious and fast growing in market spaces.Mobile -&nbsp;We are 2-3 years into the solid growth of the mobile smartphone market.</p>
+<center><p><a href="http://www.apievangelist.com/2013/05/04/what-are-the-opportunities-in-baas/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+

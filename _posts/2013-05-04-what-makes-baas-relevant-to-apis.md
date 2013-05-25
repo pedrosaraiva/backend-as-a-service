@@ -1,0 +1,7 @@
+<p>Unless you are a BaaS provider or a mobile application developer, the linkage between BaaS and APIs may not be immediately clear.But once you study the space, you quickly notice that APIs are the heart of BaaS, providing platforms with the flexibility and resources they need to meet mobile developers needs.BaaS and APIs are working together in several ways:
+
+Native BaaS APIs - Each BaaS provider offers up a default set of REST APIs for manipulating core data and object stores, providing programmatical access to almost every part of the BaaS platform
+Custom APIs - Most BaaS providers allow for the design, deployment and configuration of custom REST APIs from data an objects defined via the system.Turning many BaaS platforms into API deployment frameworks, opening up a whole new channel for development
+Deploy BaaS Platforms&nbsp;- The growth in number of APIs resources, coupled with the BaaS movement opens up the opportunity for new providers to step up and deliver BaaS stacks, using their own API resources, bundled 3rd party APIs or a combination of the two.An API Blueprint - The patterns that are emerging among BaaS providers provide an excellent blueprint of what types of API resources mobile developers are demanding.</p>
+<center><p><a href="http://www.apievangelist.com/2013/05/04/so-what-makes-baas-relevant-to-apis/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+
