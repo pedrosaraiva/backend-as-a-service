@@ -1,4 +1,0 @@
-<p>BaaS is an evolution.&nbsp;Its not a revolution, gamer changer or ground breaking new technology.&nbsp;It is a logical response to the demand for mobile applications and how to logically bring together individual API driven resources into a loosely couple stack, that will allow mobile developers to build apps more efficiently.If we do this right, we can meet the demand of our growing need for apps on our mobile and tablet devices as well as the backend compute resources needed for the other areas of the growing, Internet connected world.&nbsp;
-This white paper ws authored by Kin Lane, of API Evangelist.</p>
-<center><p><a href="http://www.apievangelist.com/2013/05/05/baas,-in-closing/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
-

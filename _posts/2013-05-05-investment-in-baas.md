@@ -1,5 +1,0 @@
-<p>As BaaS evolves, we are seeing the huge investment from numerous start-ups, as well as grabbing the attention of a handful of larger tech companies, but we are also seeing the first signs of major investment in the space.&nbsp;
-
-Facebook Acquisition of Parse -&nbsp;Facebook recently acquired on of the top BaaS providers in the space, Parse.&nbsp;While there has been rumors swirling around the tech space for some time, regarding Facebooks desires to manufacture their own mobile device and possibly their own mobile operating system to rival iOS and Android, the Parse acquisition seems a little closer to reality.Facebooks investment in the BaaS space acknowledges that mobile dominance wont always be about device dominance, and the potential of well tuned, meaningful, virtualized stacks of resources for mobile developers.&nbsp;Facebook is looking to invest in mobile and BaaS represents that path forward.</p>
-<center><p><a href="http://www.apievangelist.com/2013/05/05/investment-in-baas/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
-
