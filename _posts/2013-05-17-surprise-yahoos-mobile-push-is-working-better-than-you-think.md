@@ -1,0 +1,11 @@
+---
+layout: post
+title: Surprise: Yahoo’s mobile push is working better than you think
+url: http://gigaom.com/2013/05/17/surprise-yahoos-mobile-push-is-working-better-than-you-think/
+source: http://gigaom.com/2013/05/17/surprise-yahoos-mobile-push-is-working-better-than-you-think/
+domain: gigaom.com
+image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/8880_gigaom_com.png
+---
+{% include JB/setup %}<p>Summary: … according to new statistics from Onavo, which tracks actual use of mobile apps and games by “millions” of iOS users.Don’t look now but it looks like Yahoo’s mobile apps push is bearing fruit, at least according to new data from Onavo.Case in point: Yahoo Weather, which rolled out recently, already has what Onavo CEO Guy Rosen calls an “unprecedented” 3 percent market share among U.S.iPhone owners.</p>
+<center><p><a href="http://gigaom.com/2013/05/17/surprise-yahoos-mobile-push-is-working-better-than-you-think/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+

@@ -1,0 +1,11 @@
+---
+layout: post
+title: Creation of Roles is Now Unlimited for All Users
+url: http://blog.parse.com/2013/05/09/creation-of-roles-is-now-unlimited-for-all-users/
+source: http://blog.parse.com/2013/05/09/creation-of-roles-is-now-unlimited-for-all-users/
+domain: blog.parse.com
+image: http://kinlane-productions.s3.amazonaws.com/ap-evangelist-site/curated/screenshots/8515_blog_parse_com.png
+---
+{% include JB/setup %}<p>The cap on the number of roles you are allowed to have in your Parse application has been lifted, and all Basic, Pro, and Enterprise Parse users can now create unlimited roles for rich access control. Enjoy!</p>
+<center><p><a href="http://blog.parse.com/2013/05/09/creation-of-roles-is-now-unlimited-for-all-users/" style='padding:25px; font-sze:18px; font-weight: bold;'>Read Full Story</a></p></center>
+
