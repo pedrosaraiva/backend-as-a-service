@@ -3,20 +3,30 @@ layout: page
 title: Companies
 ---
 <style>
-.toolbar{
-    float:right;   
-}
-.toolbar li{
-    display: inline;
-    list-style: none;
-}
+    .toolbar{
+        float:right;   
+    }
+    .toolbar li{
+        display: inline;
+        list-style: none;
+    }
+    .baaslistingcontainer{
+        padding-left: 10px; 
+        padding-right: 10px; 
+        width:550px;
+    }
+    .baaslisting{
+        padding-left: 30px;
+    }  
+    .baaslisting li{
+        list-style: none; padding: 30px; border: 0px solid #000;
+    }       
 </style>
 
-
-<ul id="toolbar">
-    <li><a href="">JSON</a></li>
-    <li><a href="">API</a></li>
-    <li><a href="">Script</a></li>
+<ul class="toolbar">
+    <li><a href="https://raw.github.com/kinlane/backend-as-a-service/gh-pages/data/companies.json">JSON</a></li>
+    <li><a href="https://apievangelist.3scale.net/docs">API</a></li>
+    <li><a href="https://gist.github.com/kinlane/5992075">Script</a></li>
 </ul>
 
 <h1>BaaS Providers</h1>
@@ -24,7 +34,7 @@ title: Companies
 <!--BaaS Full Listing Template--->
 {% raw  %}
 <script id="companyListingTemplate" type="text/template">       
-    <li style="list-style: none; padding: 30px; border: 0px solid #000;">
+    <li>
         <a href="companies-detail.html?id={{id}}"><img src="{{logo}}" width="200" align="left" style="padding: 15px;" /></a>
         <a href="companies-detail.html?id={{id}}" style="color: #000;"><strong>{{name}}</strong></a> - {{summary}}... <a href="companies-detail.html?id={{id}}">details</a>.
     </li>                                                                                               
@@ -32,8 +42,8 @@ title: Companies
 {% endraw %}
 
 <!--BaaS Full Listing Container--->
-<div style="padding-left: 10px; padding-right: 10px; width:550px;">
-     <ul id="companyListing" style="padding-left: 30px;"></ul>
+<div class="baaslistingcontainter">
+     <ul id="companyListing" class="baaslisting"></ul>
 </div>  
 
 <!--BaaS Full Listing JavaScript--->
