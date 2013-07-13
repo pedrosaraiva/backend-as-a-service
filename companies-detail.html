@@ -2,6 +2,8 @@
 layout: page
 title: Companies
 ---
+
+<!--BaaS Detail Template--->
 {% raw  %}
 <script id="companyDetailTemplate" type="text/template">
     <h2>{{name}}</h2>
@@ -9,8 +11,9 @@ title: Companies
     <p>{{details}}</p>                                                                                                
 </script>
 {% endraw %}
-<div>
-    
+
+<!--BaaS Full Listing Container--->
+<div id="companyDetailContainer">>  
     <p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
     <div id="companyDetail"> </div>
     <br />
@@ -26,6 +29,39 @@ title: Companies
     
 </div>  
 
-<script>
+<!--BaaS Detail JavaScript--->
+<script type="text/javascript">
+
+//Pull variables from URL
+function getUrlVar(key){
+    var result = new RegExp(key + "=([^&]*)", "i").exec(window.location.search); 
+    return result && unescape(result[1]) || ""; 
+}   
+
+// Requires Mustache - http://mustache.github.io/
+// Displays BaaS Detail 
+function getCompanyDetails(id){
+    $.getJSON('data/companies.json', function(data) {   
+        $.each(data['company'], function(key, val) {
+            
+            thisid = val['id'];
+            
+            if(thisid == id)
+                {
+                var template = $('#companyDetailTemplate').html();
+                var html = Mustache.to_html(template, val);
+                $('#companyDetail').append(html);
+                
+                website = val['website'];
+                if(website.length>0){ document.getElementById("home-icon").href=website; } else { document.getElementById("home-icon-img").style.display='none'; }              
+                                                             
+                }
+            });                                    
+        });
+    }  
+</script>
+
+<!--Trigger BaaS DetailJavaScript onLoad-->
+<script type="text/javascript">
 getCompanyDetails(getUrlVar('id'));
 </script>

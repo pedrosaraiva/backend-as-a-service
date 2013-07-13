@@ -2,6 +2,10 @@
 layout: page
 title: Companies
 ---
+
+<h1>BaaS Providers</h1>
+
+<!--BaaS Full Listing Template--->
 {% raw  %}
 <script id="companyListingTemplate" type="text/template">       
     <li style="list-style: none; padding: 30px; border: 0px solid #000;">
@@ -11,12 +15,16 @@ title: Companies
 </script>
 {% endraw %}
 
-<p><a id="jsonlink" href="data/companies.json" target="_blank"><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-json-data-store.png" align="right" width="50" style="padding-top: 10px;" /></a></p>
-<h1>BaaS Companies</h1>
+<!--BaaS Full Listing Container--->
 <div style="padding-left: 10px; padding-right: 10px; width:550px;">
      <ul id="companyListing" style="padding-left: 30px;"></ul>
 </div>  
+
+<!--BaaS Full Listing JavaScript--->
 <script type="text/javascript">
+
+// Requires Mustache - http://mustache.github.io/
+
 function listCompanies()
     {
     $.getJSON('data/companies.json', function(data) {
@@ -30,6 +38,8 @@ function listCompanies()
     } 
 listCompanies();
 </script>
+
+<!--Trigger BaaS Full Listing JavaScript onLoad-->
 <script type="text/javascript">
 listCompanies();
 </script>
