@@ -20,7 +20,7 @@ title: Building Blocks
 </style>
 
 <ul class="toolbar">
-    <li>{"<a href="https://raw.github.com/kinlane/backend-as-a-service/gh-pages/data/companies.json" title="JSON" target="_blank">JSON</a>"}</li>
+    <li>{"<a href="https://raw.github.com/kinlane/backend-as-a-service/gh-pages/data/buildingblocks.json" title="JSON" target="_blank">JSON</a>"}</li>
     <li>{"<a href="https://apievangelist.3scale.net/docs" title="API" target="_blank">API</a>"}</li>
     <li>{"<a href="https://gist.github.com/kinlane/5992075" title="Script" target="_blank">SCRIPT</a>"}</li>
 </ul>
@@ -31,17 +31,11 @@ title: Building Blocks
 {% raw  %}
 
 <script id="buildingblockcategoryTemplate" type="text/template">       
-    <li>
-        <strong>{{category}}</strong>
-        <ul id="{{slug}}"></ul>
-    </li>                                                                                               
+    <li><strong>{{category}}</strong><ul id="{{slug}}"></ul></li>                                                                                               
 </script>
 
 <script id="buildingblockTemplate" type="text/template">       
-    <li>
-        <img src="{{image}}" width="75" align="left" style="padding: 15px;" />
-       <strong>{{name}}</strong></a> - {{summary}}
-    </li>                                                                                               
+    <li><img src="{{image}}" width="75" align="left" style="padding: 15px;" /><strong>{{name}}</strong></a> - {{summary}}</li>                                                                                               
 </script>
 {% endraw %}
 
