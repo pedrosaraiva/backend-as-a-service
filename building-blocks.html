@@ -65,8 +65,8 @@ function listCompanies()
             var html = Mustache.to_html(template, val);
             $('#buildingblockListing').append(html);  
             
-            category = val['name'];
-            alert(category);
+            category = val['category'];
+            
             slug = val['slug'];
             $.getJSON('data/buildingblocks.json', function(data2) {
                 toggle = 0;
