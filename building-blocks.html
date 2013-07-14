@@ -55,7 +55,7 @@ title: Companies
 
 // Requires Mustache - http://mustache.github.io/
 
-function listCompanies()
+function listbuidingblockcategories()
     {
     $.getJSON('data/buildingblockcategories.json', function(data) {
          $.each(data['buildingblockcategories'], function(key, val) {
@@ -64,8 +64,11 @@ function listCompanies()
             var html = Mustache.to_html(template, val);
             $('#buildingblockListing').append(html);  
             });                                   
-        });    
+        });           
+    } 
     
+function listbuidingblocks()
+    {
     $.getJSON('data/buildingblocks.json', function(data) {
          $.each(data['buildingblocks'], function(key, val) {
             categoryslug = val['categoryslug']; 
@@ -74,11 +77,11 @@ function listCompanies()
             $('#'+categoryslug).append(html);   
             });                                   
         });        
-    } 
-listCompanies();
+    }    
 </script>
 
 <!--Trigger BaaS Full Listing JavaScript onLoad-->
 <script type="text/javascript">
 listCompanies();
+listbuidingblocks();
 </script>
