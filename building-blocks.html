@@ -9,16 +9,26 @@ title: Building Blocks
         padding-right: 10px; 
         width:550px;
     }
+    .buildingblockcategorylistingul{
+        padding-left: 30px;
+    }  
+    .buildingblockcategorylistingul li{
+        list-style: none; 
+        padding: 10px; 
+        border: 0px solid #000;
+        font-size: 16px;
+        font-weight: bold;
+    }  
     .buildingblocklistingul{
         padding-left: 30px;
     }  
     .buildingblocklistingul li{
         list-style: none; 
-        padding: 20px; 
-        border: 0px solid #000;
+        padding: 10px; 
+        border: 1px solid #000;
         font-size: 16px;
         font-weight: bold;
-    }       
+    } 
 </style>
 
 <ul class="toolbar">
@@ -33,7 +43,7 @@ title: Building Blocks
 {% raw  %}
 
 <script id="buildingblockcategoryTemplate" type="text/template">       
-    <li><strong>{{category}}</strong><ul id="{{slug}}"></ul></li>                                                                                               
+    <li><strong>{{category}}</strong><ul id="{{slug}}" class="buildingblocklistingul"></ul></li>                                                                                               
 </script>
 
 <script id="buildingblockTemplate" type="text/template">       
@@ -43,7 +53,7 @@ title: Building Blocks
 
 <!--BaaS Full Listing Container--->
 <div class="buildingblocklistingcontainter">
-     <ul id="buildingblockListing" class="buildingblocklistingul"></ul>
+     <ul id="buildingblockListing" class="buildingblockcategorylistingul"></ul>
 </div>  
 
 <!--BaaS Full Listing JavaScript--->
