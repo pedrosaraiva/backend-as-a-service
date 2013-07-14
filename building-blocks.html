@@ -9,10 +9,10 @@ title: Companies
         padding-right: 10px; 
         width:550px;
     }
-    .buildingblocklisting{
+    .buildingblocklistingul{
         padding-left: 30px;
     }  
-    .buildingblocklisting li{
+    .buildingblocklistingul li{
         list-style: none; 
         padding: 30px; 
         border: 0px solid #000;
@@ -32,7 +32,7 @@ title: Companies
 
 <script id="buildingblockcategoryTemplate" type="text/template">       
     <li>
-        <strong>{{name}}</strong>
+        <strong>{{category}}</strong>
          <ul id="{{slug}}" class="buildingblocklisting"></ul>
     </li>                                                                                               
 </script>
@@ -47,7 +47,7 @@ title: Companies
 
 <!--BaaS Full Listing Container--->
 <div class="buildingblocklistingcontainter">
-     <ul id="buildingblockListing" class="buildingblocklisting"></ul>
+     <ul id="buildingblockListing" class="buildingblocklistingul"></ul>
 </div>  
 
 <!--BaaS Full Listing JavaScript--->
@@ -65,19 +65,20 @@ function listCompanies()
             var html = Mustache.to_html(template, val);
             $('#buildingblockListing').append(html);  
             
-            category = val['category'];
-            
+            category = val['category'];            
             slug = val['slug'];
+            
             $.getJSON('data/buildingblocks.json', function(data2) {
-                toggle = 0;
                  $.each(data2['buildingblocks'], function(key2, val2) {
                      
-                    category2 = val['category']; 
+                    name = val2['name'];
+                    alert("name");
+                    category2 = val2['category'];  
                     if(category2==category){
-                    var template2 = $('#buildingblockTemplate').html();
-                    var html2 = Mustache.to_html(template2, val2);
-                    $('#'+slug).append(html2);  
-                    }   
+                        var template2 = $('#buildingblockTemplate').html();
+                        var html2 = Mustache.to_html(template2, val2);
+                        $('#'+slug).append(html2);  
+                      }   
                     });
                 });                                    
             });
