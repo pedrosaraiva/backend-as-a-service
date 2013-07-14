@@ -67,7 +67,7 @@ function listCompanies()
             
             category = val['name'];
             slug = val['slug'];
-            $.getJSON('data/buildingblockcategories.json', function(data2) {
+            $.getJSON('data/buildingblocks.json', function(data2) {
                 toggle = 0;
                  $.each(data2['buildingblocks'], function(key2, val2) {
                      
