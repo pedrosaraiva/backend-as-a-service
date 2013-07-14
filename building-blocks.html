@@ -64,27 +64,21 @@ function listCompanies()
             var template = $('#buildingblockcategoryTemplate').html();
             var html = Mustache.to_html(template, val);
             $('#buildingblockListing').append(html);  
-            
-            category = val['category'];            
-            slug = val['slug'];
-            
-            $.getJSON('data/buildingblocks.json', function(data2) {
-                 $.each(data2['buildingblocks'], function(key2, val2) {
-                     
-                    name = val2['name'];
-                    category2 = val2['category'];
-                      
-                    if(category2==category){
-                        alert(name);
-                        var template2 = $('#buildingblockTemplate').html();
-                        var html2 = Mustache.to_html(template2, val2);
-                        alert(html2);
-                        $('#'+slug).append(html2);  
-                      }   
-                    });
-                });                                    
-            });
         });
+        
+    $.getJSON('data/buildingblocks.json', function(data) {
+         $.each(data['buildingblocks'], function(key, val) {
+             
+            name = val['name'];
+            categoryslug = val['categoryslug'];
+
+            var template = $('#buildingblockTemplate').html();
+            var html = Mustache.to_html(template, val);
+            $('#'+categoryslug).append(html);
+                
+            });
+        });                                    
+    });        
     } 
 listCompanies();
 </script>
