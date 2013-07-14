@@ -66,15 +66,18 @@ function listCompanies()
             $('#buildingblockListing').append(html);  
             
             category = val['name'];
+            alert(category);
             slug = val['slug'];
             $.getJSON('data/buildingblocks.json', function(data2) {
                 toggle = 0;
                  $.each(data2['buildingblocks'], function(key2, val2) {
                      
+                    category2 = val['category']; 
+                    if(category2==category){
                     var template2 = $('#buildingblockTemplate').html();
                     var html2 = Mustache.to_html(template2, val2);
                     $('#'+slug).append(html2);  
-                       
+                    }   
                     });
                 });                                    
             });
